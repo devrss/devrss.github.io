@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A972c3a01967ccde3e19ba55ffd90c603f96eb8c6c1d53472bdb9350bc6c9ec80&amp;height=480&amp;id=mymap&amp;lang=ru_RU&amp;scroll=true">
+    </script>
+    <!-- icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="header">
+            <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
+            <li><a href="contacts.html"><img src="img/contacts.svg" alt="contacts"></a></li>
+        </ul>
+    </div>
+    <div class="contatcs__header">
+        <div class="top__contacts-info container">
+            <h2 class="contatcs__headeing">Contact us</h2>
+            <p class="paragraph paragraph__contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    <div class="wrapper container">
+        <div class="contacts">
+            <img src="img/adress.svg" class="contacts__img" alt="photo">
+            <h4 class="heading__mini heading-contacts">Address</h4>
+            <p class="paragraph paragraph__adress">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.
+            </p>
+            <h4 class="heading__mini heading-contacts">Phone</h4>
+            <ul class="phone__info">
+                <li class="list__info list-1">+7-812-7313-4321</li>
+                <li class="list__info list-1">+7-817-0000-1234</li>
+            </ul>
+            <h4 class="heading__mini heading-contacts">Online service</h4>
+            <ul class="online__info">
+                <li class="list__info list-2"><a href="www.site.com" class="service__info"
+                        target="_blank">www.site.com</a>
+                </li>
+                <li class="list__info list-2"><a href="hello.site@gmail.com"
+                        class="service__info">hello.site@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+        <form action="#" class="form">
+            <h4 class="heading__mini heading-contacts heading-form">Send us message</h4>
+            <label for="name">Full Name</label>
+            <input class="form__style" id="name" type="text" placeholder="Your Name">
+            <label for="mail">Email</label>
+            <input class="form__style" id="mail" type="email" placeholder="Your Email">
+            <label for="text">Message</label>
+            <textarea class="form__style form-margin" id="text" cols="30" rows="4"
+                placeholder="Your Message"></textarea>
+            <button class="form__style-button" type="submit">submit</button>
+        </form>
+    </div>
+    <div class="map container" id="mymap"></div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__text">
+                    <h3 class="heading bottom-h">Intersted to work with our team?</h3>
+                    <p class="paragraph bottom-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <a href="#" class="footer__link">Let’s Talk</a>
+            </div>
+        </div>
+        <hr style="opacity: 0.4;">
+        <div class="container">
+            <div class="footer__bottom">
+                <ul class="footer__info">
+                    <li class="footer__list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="footer__list">+7-812-7313-4321</li>
+                    <li class="footer__list">hello.site@gmail.com</li>
+                </ul>
+                <div class="footer__copy">
+                    <p class="paragraph copy">2021 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

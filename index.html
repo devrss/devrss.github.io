@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+			rel="stylesheet"
+		/>
+		<title>. / Портфолио frontend-разработчика</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
-    rel="stylesheet">
-  <title>. / Портфолио frontend-разработчика</title>
-</head>
+	<body class="page">
+		<header class="page-header">
+			<div class="container">
+				<div class="nav">
+					<a class="email" href="mailto:work.rss@ya.ru">work.rss@ya.ru</a>
+					<a class="github" href="https://github.com/devrss" target="_blank"
+						>Github</a
+					>
+					<a
+						class="btn"
+						href="./sergienko.roman.pdf"
+						title="Download CV"
+						target="_blank"
+					>
+						CV
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 16 16"
+							class="ico"
+						>
+							<path
+								fill="none"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-miterlimit="10"
+								d="M8 11.4l3.3-2.9m-6.6 0L8 11.4V.5M.5 10.8v4.7h15v-4.7"
+							></path>
+						</svg>
+					</a>
+					<button class="theme-button" type="button"></button>
+				</div>
+			</div>
+		</header>
 
-<body class="page">
-  <header class="page-header">
-    <div class="container">
-      <div class="nav">
-        <a class="email" href="mailto:work.rss@ya.ru">work.rss@ya.ru</a>
-        <a class="github" href="https://github.com/devrss" target="_blank">Github</a>
-        <a class="btn" href="./sergienko.roman.pdf" title="Download CV" target="_blank">
-          CV
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="ico">
-            <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
-              d="M8 11.4l3.3-2.9m-6.6 0L8 11.4V.5M.5 10.8v4.7h15v-4.7"></path>
-          </svg>
-        </a>
-        <button class="theme-button" type="button"></button>
-      </div>
-    </div>
-  </header>
+		<section class="hero-image">
+			<div class="container">
+				<h1 class="heading">Сергиенко Роман</h1>
+				<p>frontend-разработчик</p>
+				<a href="#arrow" class="arrow-btn">&#9660;</a>
+			</div>
+		</section>
 
-  <section class="hero-image">
-    <div class="container">
-      <h1 class="heading">Сергиенко Роман</h1>
-      <p>frontend-разработчик</p>
-      <a href="#arrow" class="arrow-btn">&#9660;</a>
-    </div>
-  </section>
-
-  <section class="intro" id="arrow">
-    <div class="container">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <!-- <div>
+		<section class="intro" id="arrow">
+			<div class="container">
+				<h2 class="subheading">Давайте познакомимся</h2>
+				<!-- <div>
         <h3>Пара слов о себе</h3>
         <p>Текст с парой слов о себе.</p>
       </div>
@@ -47,80 +63,103 @@
         <h3>Чем могу быть полезен</h3>
         <p>Текст о том, чем могу быть полезен.</p>
       </div> -->
-      <div class="skills" style="text-align: center;">
-        <h3>Мои навыки</h3>
-        <div class="skills-list">
-          <div class="skill-card"></div>
-          <div class="skill-card"></div>
-          <div class="skill-card"></div>
-          <div class="skill-card"></div>
-          <div class="skill-card"></div>
-          <div class="skill-card"></div>
-          <div class="skill-card"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+				<div class="skills" style="text-align: center">
+					<h3>Мои навыки</h3>
+					<div class="skills-list">
+						<div class="skill-card"></div>
+						<div class="skill-card"></div>
+						<div class="skill-card"></div>
+						<div class="skill-card"></div>
+						<div class="skill-card"></div>
+						<div class="skill-card"></div>
+						<div class="skill-card"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <section class="portfolio">
-    <div class="container">
-      <h2 class="subheading">Мои работы</h2>
-      <div class="card text-right">
-        <div class="card-body">
-          <button class="btn-sm" type="button"></button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 ">
-          <div class="card mb-4">
-            <img src="img/Tesla.png" class="card-img-top">
-            <div class="card-body">
-              <h2 class="card-title">Сайт Tesla</h2>
-              <p class="card-text">Небольшой лендинг новой модели теслы.</p>
-              <a target="_blank" href="https://burred-effects.000webhostapp.com/" class="btn">Перейти →</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4"><img src="img/Tool.png" class="card-img-top">
-            <div class="card-body">
-              <h2 class="card-title">Пример сайта компании</h2>
-              <p class="card-text">Cайт с формой и интерактивной картой</p> <a target="_blank"
-                href="https://congruous-deposit.000webhostapp.com" class="btn btn-primary">Перейти →</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4"><img src="img/MX 3.png" class="card-img-top">
-            <div class="card-body">
-              <h2 class="card-title">Страница компании logitech</h2>
-              <p class="card-text">Выполнен по макету с использованием html и css</p> <a target="_blank"
-                href="source/Logitech_MX_Promo/index.html" class="btn btn-primary">Перейти →</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4"><img src="img/Game.png" class="card-img-top">
-            <div class="card-body">
-              <h2 class="card-title">Новогодняя игра три в ряд</h2>
-              <p class="card-text">Увлекательная игра в новогодней стилистике</p> <a target="_blank"
-                href="source/Game/index.html" class="btn btn-primary">Перейти →</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+		<section class="portfolio">
+			<div class="container">
+				<h2 class="subheading">Мои работы</h2>
+				<div class="card text-right">
+					<div class="card-body">
+						<button class="btn-sm" type="button"></button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<img src="img/Tesla.png" class="card-img-top" />
+							<div class="card-body">
+								<h2 class="card-title">Сайт Tesla</h2>
+								<p class="card-text">Небольшой лендинг новой модели теслы.</p>
+								<a target="_blank" href="source/tesla/index.html" class="btn"
+									>Перейти →</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<img src="img/Tool.png" class="card-img-top" />
+							<div class="card-body">
+								<h2 class="card-title">Пример сайта компании</h2>
+								<p class="card-text">Сайт с формой и интерактивной картой</p>
+								<a
+									target="_blank"
+									href="source/New_Automation/index.html"
+									class="btn btn-primary"
+									>Перейти →</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<img src="img/MX 3.png" class="card-img-top" />
+							<div class="card-body">
+								<h2 class="card-title">Страница компании logitech</h2>
+								<p class="card-text">
+									Выполнен по макету с использованием html и css
+								</p>
+								<a
+									target="_blank"
+									href="source/Logitech_MX_Promo/index.html"
+									class="btn btn-primary"
+									>Перейти →</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4">
+							<img src="img/Game.png" class="card-img-top" />
+							<div class="card-body">
+								<h2 class="card-title">Новогодняя игра три в ряд</h2>
+								<p class="card-text">
+									Увлекательная игра в новогодней стилистике
+								</p>
+								<a
+									target="_blank"
+									href="source/Game/index.html"
+									class="btn btn-primary"
+									>Перейти →</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <footer class="page-footer">
-    <div class="container">
-      <div class="nav">
-        <a class="email" href="mailto:work.rss@ya.ru">work.rss@ya.ru</a>
-        <a class="github" href="https://github.com/devrss">github</a>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
+		<footer class="page-footer">
+			<div class="container">
+				<div class="nav">
+					<a class="email" href="mailto:work.rss@ya.ru">work.rss@ya.ru</a>
+					<a class="github" href="https://github.com/devrss">github</a>
+				</div>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
 </html>
